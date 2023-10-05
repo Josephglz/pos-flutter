@@ -5,16 +5,6 @@ class InicioScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //Necesito una cuadricula de 2 x 3 donde haya 6 botones para:
-    /**
-     * 1. Ventas
-     * 2. Inventario
-     * 3. Clientes
-     * 4. Proveedores
-     * 5. Cerrar Sesión
-     * 
-     * Pero con un margen de 10 pixeles entre cada uno
-     */
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.cyan,
